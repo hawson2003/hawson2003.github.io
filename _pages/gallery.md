@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: gallery
 title: "Landscape & Wildlife Photography"
 permalink: /gallery/
 author_profile: false

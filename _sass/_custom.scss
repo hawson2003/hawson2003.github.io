@@ -56,46 +56,49 @@
   }
 }
 
-#main:has(.gallery-page) {
+.gallery-main {
   max-width: none !important;
-  width: 100%;
+  width: 100% !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
   margin-top: 1.25em;
 }
 
-.page:has(.gallery-page) {
+.page--gallery {
   float: none !important;
   width: 100% !important;
-  max-width: none;
+  max-width: none !important;
   padding: 0 !important;
   margin: 0 !important;
 }
 
-.page:has(.gallery-page) .page__inner-wrap,
-.page:has(.gallery-page) .page__content {
-  padding: 0;
-  margin: 0;
+.page--gallery .page__inner-wrap,
+.page--gallery .page__content {
+  float: none !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-.page:has(.gallery-page) header {
+.gallery-header,
+.page--gallery .page__title,
+.gallery-intro {
+  text-align: center !important;
+}
+
+.gallery-header {
   padding: 0 1.5rem;
-  text-align: center;
 }
 
-.page:has(.gallery-page) .page__title {
+.page--gallery .page__title {
+  display: block;
+  width: 100%;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   font-weight: 700;
   font-size: 1.45rem;
   line-height: 1.25;
   margin: 0 auto 0.9em;
-}
-
-.page:has(.gallery-page) .page__meta,
-.page:has(.gallery-page) .page__footer,
-.page:has(.gallery-page) .page__inner-wrap > footer {
-  display: none;
 }
 
 .gallery-intro {
@@ -105,7 +108,27 @@
   color: mix(#000, #fff, 28%);
   font-size: 1.02em;
   line-height: 1.7;
-  text-align: center;
+}
+
+@media (min-width: 925px) {
+  .gallery-main,
+  .page--gallery,
+  .page--gallery .page__inner-wrap,
+  .page--gallery .page__content {
+    float: none !important;
+    width: 100% !important;
+    max-width: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .page--gallery .page__title {
+    font-size: 1.15rem;
+  }
 }
 
 .photo-gallery {
@@ -154,12 +177,6 @@
   max-width: 100%;
   height: auto;
   max-height: 40vh;
-}
-
-@media (max-width: 600px) {
-  .page:has(.gallery-page) .page__title {
-    font-size: 1.15rem;
-  }
 }
 
 @media (max-width: 600px) {
