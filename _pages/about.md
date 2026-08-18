@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming M.S. student in Operations Research at [Columbia University](https://www.columbia.edu/). I recently completed a B.B.A. in [Business Analytics](https://ug.hkubs.hku.hk/programme/bba-ba) and Computer Science at the University of Hong Kong (First Class Honors). My academic interests are in computer graphics, data analytics, and operations research.
+I am an incoming M.S. student in Operations Research at [Columbia University](https://www.columbia.edu/). I recently completed a B.B.A. in [Business Analytics](https://ug.hkubs.hku.hk/programme/bba-ba) and Computer Science at the University of Hong Kong (First Class Honors). My academic interests are in data analytics, operations research, and quantitative finance.
 
 If you would like a detailed resume, please feel free to email me.
 
