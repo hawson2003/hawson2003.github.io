@@ -11,7 +11,7 @@ I am an incoming M.S. student in Operations Research at [Columbia University](ht
 
 If you would like a detailed resume, please feel free to email me.
 
-My primary working languages are Mandarin Chinese and English. I also have some proficiency in Japanese, Tibetan, and Cantonese.
+My primary working languages are Mandarin Chinese and English. I also have some proficiency in Japanese, Tibetan, and Cantonese. I am also interested in [photography and wildlife](/gallery/).
 
 ## Education
 
