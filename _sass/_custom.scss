@@ -111,7 +111,7 @@
 .photo-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: flex-start;
   gap: 4px;
   width: 100%;

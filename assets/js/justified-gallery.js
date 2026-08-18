@@ -1,4 +1,6 @@
 (function () {
+  var PER_ROW = 3;
+
   function layoutGallery() {
     var gallery = document.querySelector(".photo-gallery");
     if (!gallery) return;
@@ -11,10 +13,6 @@
     var width = gallery.clientWidth;
     if (width < 1) return;
 
-    var target = Math.round(Math.min(360, Math.max(150, window.innerHeight * 0.34)));
-    var row = [];
-    var rowAr = 0;
-
     function aspect(el) {
       var img = el.querySelector("img");
       if (img && img.naturalWidth > 0) return img.naturalWidth / img.naturalHeight;
@@ -22,31 +20,28 @@
       return ar > 0 ? ar : 1.5;
     }
 
-    function flush(stretch) {
-      if (!row.length) return;
-      var totalGap = gap * (row.length - 1);
-      var height = stretch ? (width - totalGap) / rowAr : target;
-      row.forEach(function (el) {
-        var ar = aspect(el);
-        el.style.width = ar * height + "px";
+    function layoutRow(row) {
+      var n = row.length;
+      if (!n) return;
+      var available = width - gap * (n - 1);
+      var ars = row.map(aspect);
+      var rowAr = ars.reduce(function (sum, ar) { return sum + ar; }, 0);
+      var height = available / rowAr;
+      var used = 0;
+      row.forEach(function (el, i) {
+        var w = i === n - 1 ? available - used : Math.floor(ars[i] * height);
+        used += w;
+        el.style.width = w + "px";
         el.style.height = height + "px";
         el.style.flexGrow = "0";
         el.style.flexShrink = "0";
         el.style.flexBasis = "auto";
       });
-      row = [];
-      rowAr = 0;
     }
 
-    items.forEach(function (el) {
-      var ar = aspect(el);
-      var nextAr = rowAr + ar;
-      var nextWidth = nextAr * target + gap * row.length;
-      if (row.length && nextWidth > width) flush(true);
-      row.push(el);
-      rowAr += ar;
-    });
-    flush(false);
+    for (var i = 0; i < items.length; i += PER_ROW) {
+      layoutRow(items.slice(i, i + PER_ROW));
+    }
     gallery.classList.add("is-ready");
   }
 
