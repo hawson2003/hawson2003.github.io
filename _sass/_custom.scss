@@ -97,6 +97,14 @@
   margin: 0 auto 0.9em;
 }
 
+.gallery-header,
+.page--gallery .page__title,
+.gallery-intro {
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+}
+
 .gallery-intro {
   display: block;
   max-width: 42rem;
