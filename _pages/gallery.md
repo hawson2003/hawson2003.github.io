@@ -7,8 +7,6 @@ share: false
 ---
 
 <div class="gallery-page">
-  <p class="gallery-intro">I have traveled across China and several other countries with a camera, looking for landscapes and wildlife that are worth pausing for. These photographs come from those trips — mountains, coasts, forests, and the animals that live there.</p>
-
   <div class="photo-gallery">
     <div class="photo-row">
       <a href="{{ '/images/gallery/01.jpg' | relative_url }}" style="--ar: 1.7486"><img src="{{ '/images/gallery/01.jpg' | relative_url }}" alt="Landscape photograph 1"></a>

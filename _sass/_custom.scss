@@ -80,19 +80,15 @@
   margin: 0 !important;
 }
 
-.gallery-header,
-.page--gallery .page__title,
-.gallery-intro {
-  text-align: center !important;
-}
-
 .gallery-header {
   padding: 0 1.5rem;
+  text-align: center !important;
 }
 
 .page--gallery .page__title {
   display: block;
   width: 100%;
+  text-align: center !important;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   font-weight: 700;
@@ -102,12 +98,14 @@
 }
 
 .gallery-intro {
-  max-width: 46rem;
-  margin: 0 auto 1.5rem;
-  padding: 0 1.5rem;
+  display: block;
+  max-width: 42rem;
+  margin: 0 auto 1.5rem !important;
+  padding: 0;
   color: mix(#000, #fff, 28%);
   font-size: 1.02em;
   line-height: 1.7;
+  text-align: center !important;
 }
 
 @media (min-width: 925px) {
