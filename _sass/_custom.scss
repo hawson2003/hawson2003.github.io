@@ -80,6 +80,7 @@
 
 .page:has(.gallery-page) header {
   padding: 0 1.5rem;
+  text-align: center;
 }
 
 .page:has(.gallery-page) .page__title {
@@ -88,7 +89,7 @@
   font-weight: 700;
   font-size: 1.45rem;
   line-height: 1.25;
-  margin: 0 0 0.9em;
+  margin: 0 auto 0.9em;
 }
 
 .page:has(.gallery-page) .page__meta,
@@ -99,15 +100,18 @@
 
 .gallery-intro {
   max-width: 46rem;
-  margin: 0 1.5rem 1.5rem;
+  margin: 0 auto 1.5rem;
+  padding: 0 1.5rem;
   color: mix(#000, #fff, 28%);
   font-size: 1.02em;
   line-height: 1.7;
+  text-align: center;
 }
 
 .photo-gallery {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-content: flex-start;
   gap: 4px;
   width: 100%;
@@ -126,6 +130,7 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+  object-position: center;
   display: block;
 }
 

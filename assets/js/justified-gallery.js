@@ -46,7 +46,7 @@
       row.push(el);
       rowAr += ar;
     });
-    flush(true);
+    flush(false);
     gallery.classList.add("is-ready");
   }
 
