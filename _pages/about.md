@@ -29,13 +29,17 @@ My primary working languages are Mandarin Chinese and English. I also have some 
 
 ## Experience
 
-### Centre for Artificial Intelligence and Robotics, Chinese Academy of Science
-**2023/12 ~ 2024/05**
-- AI Data Processing and Analysis Intern
+### Shanghai Leiling Investment Management Limited
+**2025/07 ~ 2025/08**
+- Quantitative Trading Intern
 
-### ABON Rapid Diagnosis (Hangzhou) Department, Abbott (NYSE: ABT)
+### Centre for Artificial Intelligence and Robotics, Chinese Academy of Science
+**2023/12 ~ 2024/08**
+- AI Data Processing Intern
+
+### Abbott Rapid Diagnosis (Hangzhou) Department, ABON, OpEx Team
 **2023/05 ~ 2023/07**
-- **Operational Excellence (OpEx) Department** - Business Analysis Intern
+- Business Analysis Intern
 
 ### PwC Consulting (Shenzhen) Co., Ltd.
 **2022/12 ~ 2023/03**
