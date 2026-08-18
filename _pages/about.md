@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming M.S. student in Operations Research at [Columbia University](https://www.columbia.edu/). I recently completed a B.B.A. in [Business Analytics](https://ug.hkubs.hku.hk/programme/bba-ba) and Computer Science at the University of Hong Kong (First Class Honors). My academic interests are in data analytics, operations research, and quantitative finance.
+I am an incoming M.S. student in [Operations Research](https://ieor.columbia.edu/operations-research-msor) at Columbia University. I recently completed a B.B.A. in [Business Analytics](https://ug.hkubs.hku.hk/programme/bba-ba) and Computer Science at the University of Hong Kong. My academic interests are in data analytics, operations research, and quantitative finance.
 
 If you would like a detailed resume, please feel free to email me.
 
@@ -19,7 +19,7 @@ My primary working languages are Mandarin Chinese and English. I also have some 
   <div class="cv-item">
     <div class="cv-item__main">
       <strong>Columbia University</strong>
-      <span class="cv-item__role">M.S. in Operations Research</span>
+      <span class="cv-item__role"><a href="https://ieor.columbia.edu/operations-research-msor">M.S. in Operations Research</a></span>
     </div>
     <div class="cv-item__meta">New York<br>Sep 2026 – Jun 2027</div>
   </div>
