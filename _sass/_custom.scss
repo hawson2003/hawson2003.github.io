@@ -1,0 +1,69 @@
+/* CV-style entries on the homepage */
+
+.cv-list {
+  margin: 0 0 1.75em;
+}
+
+.cv-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 0.7em 0;
+  border-bottom: 1px solid mix(#000, #fff, 8%);
+
+  &:first-child {
+    border-top: 1px solid mix(#000, #fff, 8%);
+  }
+}
+
+.cv-item__main {
+  min-width: 0;
+  flex: 1;
+
+  strong {
+    display: block;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+}
+
+.cv-item__role {
+  display: block;
+  margin-top: 0.2em;
+  color: mix(#000, #fff, 45%);
+  font-size: 0.95em;
+  line-height: 1.4;
+}
+
+.cv-item__meta {
+  flex: 0 0 auto;
+  color: mix(#000, #fff, 42%);
+  font-size: 0.88em;
+  line-height: 1.4;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.cv-item--pub {
+  .cv-item__main {
+    font-size: 0.95em;
+    line-height: 1.5;
+  }
+
+  .cv-item__meta {
+    padding-top: 0.15em;
+  }
+}
+
+@media (max-width: 600px) {
+  .cv-item {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .cv-item__meta {
+    text-align: left;
+    white-space: normal;
+  }
+}

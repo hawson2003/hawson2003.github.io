@@ -7,46 +7,84 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year undergraduate student at the University of Hong Kong (HKU), majoring in [Business Analytics](https://ug.hkubs.hku.hk/programme/bba-ba) and Computer Science. My academic interests lie in computer graphics and data analytics, and I am currently conducting research on topics within these fields.
+I am an incoming M.S. student in Operations Research at [Columbia University](https://www.columbia.edu/). I recently completed a B.B.A. in [Business Analytics](https://ug.hkubs.hku.hk/programme/bba-ba) and Computer Science at the University of Hong Kong (First Class Honors). My academic interests are in computer graphics, data analytics, and operations research.
 
-I am actively seeking internship and research opportunities in related areas. If you would like to learn more about my qualifications and experience, please feel free to email me for a detailed resume.
+If you would like a detailed resume, please feel free to email me.
 
-My primary working languages are Mandarin Chinese and English. I also have some proficiency in Japanese, Tibetan, and Cantonese. Feel free to communicate with me in these languages — I’d be happy to practice!
-
+My primary working languages are Mandarin Chinese and English. I also have some proficiency in Japanese, Tibetan, and Cantonese.
 
 ## Education
 
-### The University of Hong Kong (HKU) 
-**2022/09 ~ 2026/06**  
-- **Bachelor of Business Administration**
-  - Major in Business Analytics
-  - Major in Computer Science
-
-### Columbia University  
-**2024/09 ~ 2025/01**  
-- **Visiting Student Program**
-
+<div class="cv-list">
+  <div class="cv-item">
+    <div class="cv-item__main">
+      <strong>Columbia University</strong>
+      <span class="cv-item__role">M.S. in Operations Research</span>
+    </div>
+    <div class="cv-item__meta">New York<br>Sep 2026 – Jun 2027</div>
+  </div>
+  <div class="cv-item">
+    <div class="cv-item__main">
+      <strong>The University of Hong Kong</strong>
+      <span class="cv-item__role">B.B.A. in Business Analytics and Computer Science<br>First Class Honors</span>
+    </div>
+    <div class="cv-item__meta">Hong Kong<br>Sep 2022 – Jun 2026</div>
+  </div>
+  <div class="cv-item">
+    <div class="cv-item__main">
+      <strong>Columbia University</strong>
+      <span class="cv-item__role">Visiting Student</span>
+    </div>
+    <div class="cv-item__meta">New York<br>Sep 2024 – Jan 2025</div>
+  </div>
+</div>
 
 ## Experience
 
-### Shanghai Leiling Investment Management Limited
-**2025/07 ~ 2025/08**
-- Quantitative Trading Intern
-
-### Centre for Artificial Intelligence and Robotics, Chinese Academy of Science
-**2023/12 ~ 2024/08**
-- AI Data Processing Intern
-
-### Abbott Rapid Diagnosis (Hangzhou) Department, ABON, OpEx Team
-**2023/05 ~ 2023/07**
-- Business Analysis Intern
-
-### PwC Consulting (Shenzhen) Co., Ltd.
-**2022/12 ~ 2023/03**
-- Data Analysis Intern
+<div class="cv-list">
+  <div class="cv-item">
+    <div class="cv-item__main">
+      <strong>Shanghai Leiling Investment Management Limited</strong>
+      <span class="cv-item__role">Quantitative Trading Intern</span>
+    </div>
+    <div class="cv-item__meta">Shanghai<br>Jul 2025 – Aug 2025</div>
+  </div>
+  <div class="cv-item">
+    <div class="cv-item__main">
+      <strong>Chinese Academy of Sciences, Centre for Artificial Intelligence and Robotics</strong>
+      <span class="cv-item__role">AI Data Processing Intern</span>
+    </div>
+    <div class="cv-item__meta">Hong Kong<br>Dec 2023 – Aug 2024</div>
+  </div>
+  <div class="cv-item">
+    <div class="cv-item__main">
+      <strong>Abbott Rapid Diagnosis (Hangzhou), ABON OpEx Team</strong>
+      <span class="cv-item__role">Business Analysis Intern</span>
+    </div>
+    <div class="cv-item__meta">Hangzhou<br>May 2023 – Jul 2023</div>
+  </div>
+  <div class="cv-item">
+    <div class="cv-item__main">
+      <strong>PwC Consulting (Shenzhen) Co., Ltd.</strong>
+      <span class="cv-item__role">Data Analysis Intern</span>
+    </div>
+    <div class="cv-item__meta">Remote<br>Dec 2022 – Mar 2023</div>
+  </div>
+</div>
 
 ## Publications
 
-**Coming Soon**
-
-**Wang, H.** (2020, December). Medical Expenditure Attributable to Chronic Obstructive Pulmonary Disease in China and Gender Differences: A Case Study on National Representative Data with Multivariate Linear and Logistic Regression. In 2020 16th Dahe Fortune China Forum and Chinese High-educational Management Annual Academic Conference (DFHMC) (pp. 194-203). IEEE.
+<div class="cv-list">
+  <div class="cv-item cv-item--pub">
+    <div class="cv-item__main">
+      F. Xu, H. Wang, H. Zhang, M. Zhao, T. Yao, H. Liu, and G. Meng. “Autonomous Scanning and Motion-Aware Segmentation for Robotic Thyroid Reconstruction.” <em>2025 9th International Conference on Robotics and Automation Sciences (ICRAS)</em>, pp. 1–7. IEEE.
+    </div>
+    <div class="cv-item__meta">Jun 2025</div>
+  </div>
+  <div class="cv-item cv-item--pub">
+    <div class="cv-item__main">
+      H. Wang. “Medical Expenditure Attributable to Chronic Obstructive Pulmonary Disease in China and Gender Differences: A Case Study on National Representative Data with Multivariate Linear and Logistic Regression.” <em>2020 16th Dahe Fortune China Forum and Chinese High-educational Management Annual Academic Conference (DFHMC)</em>, pp. 194–203. IEEE.
+    </div>
+    <div class="cv-item__meta">Dec 2020</div>
+  </div>
+</div>
