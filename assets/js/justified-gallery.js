@@ -1,60 +1,27 @@
 (function () {
-  var PER_ROW = 3;
-
-  function layoutGallery() {
-    var gallery = document.querySelector(".photo-gallery");
-    if (!gallery) return;
-
-    var items = Array.prototype.slice.call(gallery.querySelectorAll("a"));
-    if (!items.length) return;
-
-    var styles = window.getComputedStyle(gallery);
-    var gap = parseFloat(styles.columnGap || styles.gap) || 4;
-    var width = gallery.clientWidth;
-    if (width < 1) return;
-
-    function aspect(el) {
-      var img = el.querySelector("img");
-      if (img && img.naturalWidth > 0) return img.naturalWidth / img.naturalHeight;
-      var ar = parseFloat(el.getAttribute("data-ar"));
-      return ar > 0 ? ar : 1.5;
-    }
-
-    function layoutRow(row) {
-      var n = row.length;
-      if (!n) return;
-      var available = width - gap * (n - 1);
-      var ars = row.map(aspect);
-      var rowAr = ars.reduce(function (sum, ar) { return sum + ar; }, 0);
-      var height = available / rowAr;
-      var used = 0;
-      row.forEach(function (el, i) {
-        var w = i === n - 1 ? available - used : Math.floor(ars[i] * height);
-        used += w;
-        el.style.width = w + "px";
-        el.style.height = height + "px";
-        el.style.flexGrow = "0";
-        el.style.flexShrink = "0";
-        el.style.flexBasis = "auto";
-      });
-    }
-
-    for (var i = 0; i < items.length; i += PER_ROW) {
-      layoutRow(items.slice(i, i + PER_ROW));
-    }
-    gallery.classList.add("is-ready");
+  function capLastRow() {
+    var rows = document.querySelectorAll(".photo-row");
+    if (rows.length < 2) return;
+    var last = rows[rows.length - 1];
+    if (last.children.length >= 3) return;
+    var prev = rows[rows.length - 2];
+    var cap = Math.round(prev.getBoundingClientRect().height);
+    if (!(cap > 0)) return;
+    last.querySelectorAll("a, img").forEach(function (el) {
+      el.style.maxHeight = cap + "px";
+    });
   }
 
   function whenReady() {
     var images = document.querySelectorAll(".photo-gallery img");
     var pending = images.length;
     if (!pending) {
-      layoutGallery();
+      capLastRow();
       return;
     }
     function done() {
       pending -= 1;
-      if (pending <= 0) layoutGallery();
+      if (pending <= 0) capLastRow();
     }
     Array.prototype.forEach.call(images, function (img) {
       if (img.complete) done();
@@ -68,7 +35,7 @@
   var timer;
   window.addEventListener("resize", function () {
     clearTimeout(timer);
-    timer = setTimeout(layoutGallery, 80);
+    timer = setTimeout(capLastRow, 80);
   });
 
   if (document.readyState === "loading") {
