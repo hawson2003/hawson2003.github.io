@@ -47,7 +47,7 @@ My primary working languages are Mandarin Chinese and English. I also have some 
       <strong>DeepManifold</strong>
       <span class="cv-item__role">Quantitative Research Intern</span>
     </div>
-    <div class="cv-item__meta">New York<br>2026 – Present</div>
+    <div class="cv-item__meta">New York<br>Jul 2026 – Present</div>
   </div>
   <div class="cv-item">
     <div class="cv-item__main">
