@@ -11,7 +11,7 @@ I am an incoming M.S. student in [Operations Research](https://ieor.columbia.edu
 
 If you would like a detailed resume, please feel free to email me.
 
-My primary working languages are Mandarin Chinese and English. I also have some proficiency in Japanese, Tibetan, and Cantonese. I am also interested in photography and wildlife.
+My primary working languages are Mandarin Chinese and English. I also have some proficiency in Japanese, Tibetan, and Cantonese. I am also interested in photography and wildlife. Check the [gallery](/gallery/) for the pictures I take.
 
 ## Education
 
@@ -44,6 +44,13 @@ My primary working languages are Mandarin Chinese and English. I also have some 
 <div class="cv-list">
   <div class="cv-item">
     <div class="cv-item__main">
+      <strong>DeepManifold</strong>
+      <span class="cv-item__role">Quantitative Research Intern</span>
+    </div>
+    <div class="cv-item__meta">New York<br>2026 – Present</div>
+  </div>
+  <div class="cv-item">
+    <div class="cv-item__main">
       <strong>Shanghai Leiling Investment Management Limited</strong>
       <span class="cv-item__role">Quantitative Trading Intern</span>
     </div>
@@ -62,13 +69,6 @@ My primary working languages are Mandarin Chinese and English. I also have some 
       <span class="cv-item__role">Business Analysis Intern</span>
     </div>
     <div class="cv-item__meta">Hangzhou<br>May 2023 – Jul 2023</div>
-  </div>
-  <div class="cv-item">
-    <div class="cv-item__main">
-      <strong>PwC Consulting (Shenzhen) Co., Ltd.</strong>
-      <span class="cv-item__role">Data Analysis Intern</span>
-    </div>
-    <div class="cv-item__meta">Remote<br>Dec 2022 – Mar 2023</div>
   </div>
 </div>
 
